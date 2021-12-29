@@ -4,18 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Orchid Cobra</title>
+    <link rel="icon" href="./favicon.ico" />
     <style>
       body {
         height: 100vh;
         width: 100vw;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         margin: 0;
         background-color: black;
       }
 
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #ccc;
+        width: 20rem;
+      }
+      .social {
+        padding: 10px;
+      }
       #game-board {
         background-color: #ccc;
         width: 100vmin;
@@ -38,6 +50,48 @@
     <script src="index.js" defer type="module"></script>
   </head>
   <body>
+    <div class="info">
+      <h1>🐀 Addfree Game 🐍</h1>
+      <p>
+        <i
+          >“Desire is a contract that you make with yourself to be unhappy until
+          you get what you want.” </i
+        ><br />
+        -- Naval Ravikant
+      </p>
+    </div>
     <div id="game-board"></div>
+    <div class="info">
+      <p>
+        cheers 🤟 from
+        <a href="http://muzaffarhossain.com/" target="_blank"
+          >Muzaffar Hossain</a
+        >
+      </p>
+      <p>you can follow me if you want</p>
+      <p>
+        <a
+          class="social"
+          style="text-decoration: none"
+          href="https://twitter.com/iammuzaffar640"
+          target="_blank"
+          >🐦</a
+        >
+        <a
+          class="social"
+          style="text-decoration: none"
+          href="https://github.com/muzaffar640"
+          target="_blank"
+          >🐙</a
+        >
+        <a
+          class="social"
+          style="text-decoration: none"
+          href="https://www.instagram.com/muzaffar640/"
+          target="_blank"
+          >📸</a
+        >
+      </p>
+    </div>
   </body>
 </html>
